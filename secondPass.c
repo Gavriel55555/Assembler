@@ -479,7 +479,7 @@ int isItReg(FILE *fptr,char* line,int counter){
 char* tmpBinary(unsigned int num){
     int j= 0;
     int cur=0;
-        for(j=7;j>=0;j--){
+    for(j=7;j>=0;j--){
         cur=num & 0x1;
         tmp_arr[j] = cur + '0';
         num  = num >> 1;
