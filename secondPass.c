@@ -4,7 +4,7 @@ char addressL[155][20]={'\0'};
 char tmp_arr[8]={'\0'};
 /*----------------------------------------------------------------------------------------------------*/
 
-/*this function puts all the lablels and there addresses into the lists*/ 
+/*this func puts all the lablels and there addresses into the lists*/ 
 void create_lable_list(FILE *file1){
     char *nowW = NULL;
     unsigned int count=99;
